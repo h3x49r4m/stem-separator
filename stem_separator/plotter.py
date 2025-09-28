@@ -54,7 +54,7 @@ def get_common_audio_name(stem_dict: Dict[str, str]) -> str:
         else:
             cleaned_names.append(path)
     
-    common_name = common_prefix(cleaned_names)
+    common_name = common_prefix(cleaned_names).replace("_(", "")
     if not common_name:
         raise ValueError("Could not determine common audio name from stem files")
     return common_name

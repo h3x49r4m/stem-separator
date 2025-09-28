@@ -42,9 +42,9 @@ class StemSeparator:
             logger.info(f"{audio_path} - Loaded with sample rate {original_sample_rate} Hz")
 
             # Ensure stereo
-            if waveform.shape[0] == 1:
-                waveform = waveform.repeat(2, 1)
-                logger.info("Converted mono to stereo")
+            #if waveform.shape[0] == 1:
+            #    waveform = waveform.repeat(2, 1)
+            #    logger.info("Converted mono to stereo")
 
             # Resample to 44100 Hz if necessary
             if original_sample_rate != self.sample_rate:
