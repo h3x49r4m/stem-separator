@@ -111,17 +111,17 @@ Comparison of Spectrograms
    :align: center
 
    +---------------------+---------------------+---------------------+
-   | .. image:: images/only_time_combined_spectrograms_audio_separator_htdemucs_6s.png             |
+   | .. figure:: images/only_time_combined_spectrograms_audio_separator_htdemucs_6s.png             |
    |    :alt: audio-separator htdemucs_6s       |
    |    :width: 200                             |
    |    :align: center                          |
    +---------------------+---------------------+---------------------+
-   | .. image:: images/only_time_combined_spectrograms_audio_separator_htdemucs_ft.png             |
+   | .. figure:: images/only_time_combined_spectrograms_audio_separator_htdemucs_ft.png             |
    |    :alt: audio-separator htdemucs_ft       |
    |    :width: 200                             |
    |    :align: center                          |
    +---------------------+---------------------+---------------------+
-   | .. image:: images/only_time_combined_spectrograms_torchaudio_hdemucs_high.png             |
+   | .. figure:: images/only_time_combined_spectrograms_torchaudio_hdemucs_high.png             |
    |    :alt: torchaudio hdemucs_high           |
    |    :width: 200                             |
    |    :align: center                          |
