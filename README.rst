@@ -9,13 +9,15 @@ Stem Separator is a command-line tool for separating audio files into individual
 - torchaudio (HDemucs): vocals + drums + bass + other
 - audio-separator (Demucs variants): vocals + drums + bass + guitar + piano + other
 
+Stem Waveforms
+
 .. raw:: html
 
     <table align="center">
       <tr>
-        <td>audio-separator htdemucs_6s<br><img src="images/only_time_combined_waveforms_audio_separator_htdemucs_6s.png" width="200"></td>
-        <td>audio-separator htdemucs_ft<br><img src="images/only_time_combined_waveforms_audio_separator_htdemucs_ft.png" width="200"></td>
-        <td>torchaudio hdemucs_high<br><img src="images/only_time_combined_waveforms_torchaudio_hdemucs_high.png" width="200"></td>
+        <td>audio-separator htdemucs_6s<br><img src="docs/images/only_time_combined_waveforms_audio_separator_htdemucs_6s.png" width="200"></td>
+        <td>audio-separator htdemucs_ft<br><img src="docs/images/only_time_combined_waveforms_audio_separator_htdemucs_ft.png" width="200"></td>
+        <td>torchaudio hdemucs_high<br><img src="docs/images/only_time_combined_waveforms_torchaudio_hdemucs_high.png" width="200"></td>
       </tr>
     </table>
 
