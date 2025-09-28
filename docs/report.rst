@@ -94,8 +94,57 @@ The code uses variants from the Demucs family:
 
 Demucs and HDemucs represent advanced audio stem separation, combining U-Net, hybrid domains, and Transformers for state-of-the-art results. The code leverages these for practical use, with torchaudio for simplicity and audio-separator for flexibility. Future improvements could include real-time processing or more stems.
 
-References:
+References
 -----------
 
 *   Défossez, A. (2021). Hybrid Spectrogram and Waveform Source Separation.
 *   Rouard, S., et al. (2023). Hybrid Transformers for Music Source Separation.
+
+Appendix
+----------
+
+Comparison of Spectrograms
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. container::
+
+   .. figure:: images/only_time_combined_spectrograms_audio_separator_htdemucs_6s.png
+      :alt: Spectrograms for audio-separator htdemucs_6s
+      :width: 30%
+
+      Spectrograms for audio-separator htdemucs_6s.
+
+   .. figure:: images/only_time_combined_spectrograms_audio_separator_htdemucs_ft.png
+      :alt: Spectrograms for audio-separator htdemucs_ft
+      :width: 30%
+
+      Spectrograms for audio-separator htdemucs_ft.
+
+   .. figure:: images/only_time_combined_spectrograms_torchaudio_hdemucs_high.png
+      :alt: Spectrograms for torchaudio hdemucs_high
+      :width: 30%
+
+      Spectrograms for torchaudio hdemucs_high.
+
+Comparison of Waveforms
+~~~~~~~~~~~~~~~~~~~~~~~
+
+.. figure:: images/only_time_combined_waveforms_audio_separator_htdemucs_6s.png
+   :alt: Waveforms for audio-separator htdemucs_6s
+   :width: 30%
+
+   Waveforms for audio-separator htdemucs_6s.
+
+.. figure:: images/only_time_combined_waveforms_audio_separator_htdemucs_ft.png
+   :alt: Waveforms for audio-separator htdemucs_ft
+   :width: 30%
+
+   Waveforms for audio-separator htdemucs_ft.
+
+.. figure:: images/only_time_combined_waveforms_torchaudio_hdemucs_high.png
+   :alt: Waveforms for torchaudio hdemucs_high
+   :width: 30%
+
+   Waveforms for torchaudio hdemucs_high.
+
+
