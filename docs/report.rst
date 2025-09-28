@@ -106,25 +106,17 @@ Appendix
 Comparison of Spectrograms
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. container::
+.. table::
+   :widths: 33 33 33
+   :align: center
 
-   .. figure:: images/only_time_combined_spectrograms_audio_separator_htdemucs_6s.png
-      :alt: Spectrograms for audio-separator htdemucs_6s
-      :width: 30%
+   +-----------------+-----------------+-----------------+
+   | .. image:: images/only_time_combined_spectrograms_audio_separator_htdemucs_6s.png   | .. image:: images/only_time_combined_spectrograms_audio_separator_htdemucs_ft.png   | .. image::  images/only_time_combined_spectrograms_torchaudio_hdemucs_high.png   |
+   |    :alt: audio-separator htdemucs_6s  |     :alt: audio-separator htdemucs_ft  |     :alt: torchaudio hdemucs_high |
+   |    :width: 100%                |    :width: 100%                |    :width: 100%                |
+   |    :align: center              |    :align: center              |    :align: center              |
+   +-----------------+-----------------+-----------------+
 
-      Spectrograms for audio-separator htdemucs_6s.
-
-   .. figure:: images/only_time_combined_spectrograms_audio_separator_htdemucs_ft.png
-      :alt: Spectrograms for audio-separator htdemucs_ft
-      :width: 30%
-
-      Spectrograms for audio-separator htdemucs_ft.
-
-   .. figure:: images/only_time_combined_spectrograms_torchaudio_hdemucs_high.png
-      :alt: Spectrograms for torchaudio hdemucs_high
-      :width: 30%
-
-      Spectrograms for torchaudio hdemucs_high.
 
 Comparison of Waveforms
 ~~~~~~~~~~~~~~~~~~~~~~~
