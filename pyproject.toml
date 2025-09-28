@@ -1,0 +1,16 @@
+[project]
+name = "stem-separator"
+version = "0.1.0"
+description = "Stem Separator is a Python package for separating audio files into individual stems (e.g., vocals, drums, bass, other, piano, guitar) using deep learning models from torchaudio (HDemucs) or audio-separator (Demucs variants). It also generates waveform and spectrogram plots for visualization."
+readme = "README.rst"
+requires-python = ">=3.10"
+dependencies = [
+    "audio-separator>=0.38.0",
+    "librosa>=0.11.0",
+    "matplotlib>=3.10.6",
+    "numpy>=2.2.6",
+    "onnxruntime>=1.23.0",
+    "seaborn>=0.13.2",
+    "torch>=2.8.0",
+    "torchaudio>=2.8.0",
+]

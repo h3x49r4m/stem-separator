@@ -1,0 +1,19 @@
+# os
+.DS_Store
+
+# editor
+*.swo
+*.swp
+*.swm
+*.swn
+
+# py
+__pycache__
+*.pyc
+
+# out
+_data
+_outputs
+
+# lock
+*.lock
