@@ -110,31 +110,22 @@ Comparison of Spectrograms
 
     <table align="center">
       <tr>
-        <td><img src="images/only_time_combined_spectrograms_audio_separator_htdemucs_6s.png" width="200">audio-separator htdemucs_6s</td>
-        <td><img src="images/only_time_combined_spectrograms_audio_separator_htdemucs_ft.png" width="200">audio-separator htdemucs_ft</td>
-        <td><img src="images/only_time_combined_spectrograms_torchaudio_hdemucs_high.png" width="200">torchaudio hdemucs_high</td>
+        <td>audio-separator htdemucs_6s<br><img src="images/only_time_combined_spectrograms_audio_separator_htdemucs_6s.png" width="200"></td>
+        <td>audio-separator htdemucs_ft<br><img src="images/only_time_combined_spectrograms_audio_separator_htdemucs_ft.png" width="200"></td>
+        <td>torchaudio hdemucs_high<br><img src="images/only_time_combined_spectrograms_torchaudio_hdemucs_high.png" width="200"></td>
       </tr>
     </table>
 
 Comparison of Waveforms
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-.. figure:: images/only_time_combined_waveforms_audio_separator_htdemucs_6s.png
-   :alt: Waveforms for audio-separator htdemucs_6s
-   :width: 30%
+.. raw:: html
 
-   Waveforms for audio-separator htdemucs_6s.
-
-.. figure:: images/only_time_combined_waveforms_audio_separator_htdemucs_ft.png
-   :alt: Waveforms for audio-separator htdemucs_ft
-   :width: 30%
-
-   Waveforms for audio-separator htdemucs_ft.
-
-.. figure:: images/only_time_combined_waveforms_torchaudio_hdemucs_high.png
-   :alt: Waveforms for torchaudio hdemucs_high
-   :width: 30%
-
-   Waveforms for torchaudio hdemucs_high.
-
+    <table align="center">
+      <tr>
+        <td>audio-separator htdemucs_6s<br><img src="images/only_time_combined_waveforms_audio_separator_htdemucs_6s.png" width="200"></td>
+        <td>audio-separator htdemucs_ft<br><img src="images/only_time_combined_waveforms_audio_separator_htdemucs_ft.png" width="200"></td>
+        <td>torchaudio hdemucs_high<br><img src="images/only_time_combined_waveforms_torchaudio_hdemucs_high.png" width="200"></td>
+      </tr>
+    </table>
 
