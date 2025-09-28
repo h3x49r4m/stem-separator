@@ -106,17 +106,19 @@ Appendix
 Comparison of Spectrograms
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. table::
-   :widths: 33 33 33
-   :align: center
+.. raw:: html
 
-   +-----------------+-----------------+-----------------+
-   | .. image:: images/only_time_combined_spectrograms_audio_separator_htdemucs_6s.png   | .. image:: images/only_time_combined_spectrograms_audio_separator_htdemucs_ft.png   | .. image::  images/only_time_combined_spectrograms_torchaudio_hdemucs_high.png   |
-   |    :alt: audio-separator htdemucs_6s  |     :alt: audio-separator htdemucs_ft  |     :alt: torchaudio hdemucs_high |
-   |    :width: 100%                |    :width: 100%                |    :width: 100%                |
-   |    :align: center              |    :align: center              |    :align: center              |
-   +-----------------+-----------------+-----------------+
-
+   <div style="display: flex; justify-content: space-around; align-items: center;">
+      <div style="width: 33%;">
+         <img src="images/only_time_combined_spectrograms_audio_separator_htdemucs_6s.png" style="width: 100%; height: auto;" alt="audio-separator htdemucs_6s">
+      </div>
+      <div style="width: 33%;">
+         <img src="images/only_time_combined_spectrograms_audio_separator_htdemucs_ft.png" style="width: 100%; height: auto;" alt="audio-separator htdemucs_ft">
+      </div>
+      <div style="width: 33%;">
+         <img src="images/only_time_combined_spectrograms_torchaudio_hdemucs_high.png" style="width: 100%; height: auto;" alt="torchaudio hdemucs_high">
+      </div>
+   </div>
 
 Comparison of Waveforms
 ~~~~~~~~~~~~~~~~~~~~~~~
