@@ -106,13 +106,15 @@ Appendix
 Comparison of Spectrograms
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-<table align="center">
-  <tr>
-    <td><img src="images/only_time_combined_spectrograms_audio_separator_htdemucs_6s.png" width="200" alt="audio-separator htdemucs_6s"></td>
-    <td><img src="images/only_time_combined_spectrograms_audio_separator_htdemucs_ft.png" width="200" alt="audio-separator htdemucs_ft"></td>
-    <td><img src="images/only_time_combined_spectrograms_torchaudio_hdemucs_high.png" width="200" alt="torchaudio hdemucs_high"></td>
-  </tr>
-</table>
+.. raw:: html
+
+    <table align="center">
+      <tr>
+        <td><img src="images/only_time_combined_spectrograms_audio_separator_htdemucs_6s.png" width="200" alt="audio-separator htdemucs_6s"></td>
+        <td><img src="images/only_time_combined_spectrograms_audio_separator_htdemucs_ft.png" width="200" alt="audio-separator htdemucs_ft"></td>
+        <td><img src="images/only_time_combined_spectrograms_torchaudio_hdemucs_high.png" width="200" alt="torchaudio hdemucs_high"></td>
+      </tr>
+    </table>
 
 Comparison of Waveforms
 ~~~~~~~~~~~~~~~~~~~~~~~
